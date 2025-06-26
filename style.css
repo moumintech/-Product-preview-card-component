@@ -6,7 +6,6 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   background-color: hsl(30, 38%, 92%);
-  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,15 +123,16 @@ footer.attribution {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    margin: 2rem 1.5rem;
+    margin: 3rem 1rem 3rem 1rem;
     max-width: 375px;
     display: flex;
     flex-direction: column;
   }
 
   .product-image img {
-    width: 50%;
-    height: 50%;
+    width: 10%;
+    height: 10%;
+    object-fit: cover;
   }
 
   .product-details {
